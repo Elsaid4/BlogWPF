@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogWPF", "BlogWPF\BlogWPF.csproj", "{A30769E7-BF77-4F8A-9ADD-07B39F44273B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSKHelpers", "OSKHelpers\OSKHelpers.csproj", "{CD015318-CA2E-4A30-B0CB-A357FD827D36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		G2DataExport_Debug|Any CPU = G2DataExport_Debug|Any CPU
+		G2DataExport_Debug|x86 = G2DataExport_Debug|x86
+		G2DataExport_Release|Any CPU = G2DataExport_Release|Any CPU
+		G2DataExport_Release|x86 = G2DataExport_Release|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		ReleaseInterfacce|Any CPU = ReleaseInterfacce|Any CPU
+		ReleaseInterfacce|x86 = ReleaseInterfacce|x86
+		ReleaseServizio|Any CPU = ReleaseServizio|Any CPU
+		ReleaseServizio|x86 = ReleaseServizio|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.Debug|x86.Build.0 = Debug|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.G2DataExport_Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.G2DataExport_Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.G2DataExport_Debug|x86.ActiveCfg = Debug|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.G2DataExport_Debug|x86.Build.0 = Debug|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.G2DataExport_Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.G2DataExport_Release|Any CPU.Build.0 = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.G2DataExport_Release|x86.ActiveCfg = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.G2DataExport_Release|x86.Build.0 = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.Release|x86.ActiveCfg = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.Release|x86.Build.0 = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.ReleaseInterfacce|Any CPU.ActiveCfg = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.ReleaseInterfacce|Any CPU.Build.0 = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.ReleaseInterfacce|x86.ActiveCfg = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.ReleaseInterfacce|x86.Build.0 = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.ReleaseServizio|Any CPU.ActiveCfg = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.ReleaseServizio|Any CPU.Build.0 = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.ReleaseServizio|x86.ActiveCfg = Release|Any CPU
+		{A30769E7-BF77-4F8A-9ADD-07B39F44273B}.ReleaseServizio|x86.Build.0 = Release|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.Debug|x86.ActiveCfg = Debug|x86
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.Debug|x86.Build.0 = Debug|x86
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.G2DataExport_Debug|Any CPU.ActiveCfg = G2DataExport_Debug|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.G2DataExport_Debug|Any CPU.Build.0 = G2DataExport_Debug|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.G2DataExport_Debug|x86.ActiveCfg = G2DataExport_Debug|x86
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.G2DataExport_Debug|x86.Build.0 = G2DataExport_Debug|x86
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.G2DataExport_Release|Any CPU.ActiveCfg = G2DataExport_Release|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.G2DataExport_Release|Any CPU.Build.0 = G2DataExport_Release|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.G2DataExport_Release|x86.ActiveCfg = G2DataExport_Release|x86
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.G2DataExport_Release|x86.Build.0 = G2DataExport_Release|x86
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.Release|x86.ActiveCfg = Release|x86
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.Release|x86.Build.0 = Release|x86
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.ReleaseInterfacce|Any CPU.ActiveCfg = ReleaseInterfacce|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.ReleaseInterfacce|Any CPU.Build.0 = ReleaseInterfacce|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.ReleaseInterfacce|x86.ActiveCfg = ReleaseInterfacce|x86
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.ReleaseInterfacce|x86.Build.0 = ReleaseInterfacce|x86
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.ReleaseServizio|Any CPU.ActiveCfg = ReleaseServizio|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.ReleaseServizio|Any CPU.Build.0 = ReleaseServizio|Any CPU
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.ReleaseServizio|x86.ActiveCfg = ReleaseServizio|x86
+		{CD015318-CA2E-4A30-B0CB-A357FD827D36}.ReleaseServizio|x86.Build.0 = ReleaseServizio|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC126931-9D43-4C4B-BCE9-A886DDD04E0F}
+	EndGlobalSection
+EndGlobal

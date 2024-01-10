@@ -1,0 +1,63 @@
+﻿<Window x:Class="BlogWPF.LoginPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:BlogWPF.ViewModel"
+        mc:Ignorable="d"
+        Title="LogInPage" Height="500" Width="500" Background="LightBlue" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Window.Resources>
+        <viewModel:LoginPageViewModel x:Key="ViewModel" />
+    </Window.Resources>
+    <Grid Name="LayoutGrid" Margin="10" DataContext="{StaticResource ViewModel}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height = "Auto" />
+            <RowDefinition Height = "Auto" />
+            <RowDefinition Height = "Auto" />
+            <RowDefinition Height = "Auto" />
+            <RowDefinition Height = "Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width = "Auto" />
+            <ColumnDefinition Width = "*" />
+        </Grid.ColumnDefinitions>
+
+
+        <Label Grid.Row="0" Grid.ColumnSpan="4" Content="Effettua il Login" FontSize="30" FontWeight="Light" Margin="0,40" HorizontalAlignment="Center"/>
+
+        <Label Content="Username" FontWeight="Bold" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,10,0"/>
+        <TextBox BorderThickness="0" Grid.Column="1" Grid.Row="1" Height="30" Padding="6" HorizontalAlignment="Stretch" Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,0">
+            <TextBox.InputBindings>
+                <KeyBinding Key="Return" Command="{Binding LoginCommand}" />
+            </TextBox.InputBindings>
+        </TextBox>
+
+
+        <Label Content="Password" FontWeight="Bold" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,10,0"/>
+        <PasswordBox x:Name="PasswordBox" BorderThickness="0" Grid.Column="1" Grid.Row="2" Height="30" Padding="6" HorizontalAlignment="Stretch" Margin="0,5,0,0">
+            <PasswordBox.InputBindings>
+                <KeyBinding Key="Return" Command="{Binding LoginCommand}" />
+            </PasswordBox.InputBindings>
+        </PasswordBox>
+
+
+
+        <Button Content="Login" Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" Command="{Binding LoginCommand}"   Width="50" Height="30" Margin="0,10,0,0" BorderThickness="0">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <!-- <TextBlock Name="textBlock2" Text="Non hai un profilo, registrati" Grid.Column="1" Grid.Row="3" Margin="0,50,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>  -->
+        <TextBlock Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" Margin="0,50,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15">
+            Non hai un profilo?  
+            <Hyperlink Command="{Binding RegisterCommand}" FontStyle="Italic" FontWeight="Bold">Clicca qui</Hyperlink>
+             e registrati!
+        </TextBlock>
+
+    </Grid>
+</Window>
