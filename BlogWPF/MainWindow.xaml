@@ -31,7 +31,7 @@
         </Grid.ColumnDefinitions>
 
 
-        <TextBox Text="{Binding UserName}"  IsReadOnly="{Binding NotEditUsername}"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" FontWeight="Light" Style="{StaticResource tbNames}" />
+        <TextBox Text="{Binding Username}"  IsReadOnly="{Binding NotEditUsername}"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="35" FontWeight="Light" Style="{StaticResource tbNames}" />
         <TextBox Text="{Binding Name}"      IsReadOnly="{Binding NotEditName}"      Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Light" Style="{StaticResource tbNames}" TextWrapping="Wrap"/>
 
         <Button Command="{Binding LogoutCommand}" Content="{StaticResource Logout1}" Grid.Column="5" Width="30" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" Padding="2,0,0,0" Style="{StaticResource bStondato5}" Background="#6c8ca4"/>
